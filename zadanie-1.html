@@ -11,7 +11,7 @@
 
 <body>
   <header>
-    <h1>Форма регистрации на сайте</h1>
+    <h1><b>Форма регистрации на сайте</b></h1>
   </header>
   <main>
     <article class="c1">
@@ -20,8 +20,8 @@
         <fieldset class="account-info">
           <legend>Для регистрации введите свои данные:</legend>
           <label>Имя</label>
-          <input type="text" name="first_name" placeholder="Петр" >
-          <label>Фамилия</label>
+          <input id ="name" type="text" name="first_name" placeholder="Пётр">
+          <label id = "surname">Фамилия</label>
           <input type="text" name="last_name" placeholder="Петров">
           <label>Email</label>
           <input type="text" required="required" class="email notnull" placeholder="petr@ya.ru">
@@ -56,9 +56,6 @@
         </fieldset>
       </form>
     </article>
-    <!--<aside>
-      Тут могла быть ваша реклама
-    </aside>-->
   </main>
   <footer class="foot">
     &#169; 2021, Официальный сайт Домашенко Дмитрия

@@ -83,12 +83,13 @@ select {
 }
 
 .div_city{
+  font-family: Verdana, sans-serif;
   color: #636466;
   margin-left: 77px;
   font-weight: 900;
-  font-size: 12px;
+  font-size: 9.3px;
   letter-spacing: 0.4px;
-  margin-top: -1px;  
+  margin-top: 1px;  
 }
 
 .country{
@@ -143,11 +144,10 @@ input {
 
 span{
  color: #c6c7cc;
- font-family: Arial, Helvetica, sans-serif;
- font-size: 10px;
- letter-spacing: 0.5px;
- word-spacing: 0.9px;
-  margin-top: 1px;
+ font-family:Verdana, sans-serif;
+ font-size: 10.1px;
+ letter-spacing: -0.05px;
+margin-top: 1px;
 }
 
 label{
@@ -237,13 +237,14 @@ label{
   letter-spacing: 0.2px;
 }
 .div_warning{
+  font-family: Verdana, sans-serif;
   color: #A0A0A4;
   margin-left: 30px;
   font-weight: bold;
   letter-spacing: 0.6px;
   font-weight: 500;
-  font-size: 11px;
-  margin-top: 0px;
+  font-size: 9px;
+  margin-top: 1px;
 }
 .alink{
   text-decoration: none;
